@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 256fbb1b7258bd543b7d286ded3c9dd5, type: 3}
+  m_Name: CountDownAtlas
+  m_EditorClassIdentifier: 
+  myAtlas: {fileID: 2800000, guid: 44623bb09acb8b04589762f9fcb70823, type: 3}
+  myAtlasWidth: 128
+  myAtlasHeight: 128
+  myImageDatas:
+  - name: 0
+    character: 48
+    size: {x: 32, y: 29}
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0.25
+      height: 0.2265625
+  - name: 1
+    character: 49
+    size: {x: 32, y: 29}
+    uv:
+      serializedVersion: 2
+      x: 0.25
+      y: 0
+      width: 0.25
+      height: 0.2265625
+  - name: 2
+    character: 50
+    size: {x: 32, y: 29}
+    uv:
+      serializedVersion: 2
+      x: 0.5
+      y: 0
+      width: 0.25
+      height: 0.2265625
+  - name: 3
+    character: 51
+    size: {x: 32, y: 29}
+    uv:
+      serializedVersion: 2
+      x: 0.75
+      y: 0
+      width: 0.25
+      height: 0.2265625
+  - name: 4
+    character: 52
+    size: {x: 32, y: 29}
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.2265625
+      width: 0.25
+      height: 0.2265625
+  - name: 5
+    character: 53
+    size: {x: 32, y: 29}
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.453125
+      width: 0.25
+      height: 0.2265625
+  - name: 6
+    character: 54
+    size: {x: 32, y: 29}
+    uv:
+      serializedVersion: 2
+      x: 0
+      y: 0.6796875
+      width: 0.25
+      height: 0.2265625
+  - name: 7
+    character: 55
+    size: {x: 32, y: 29}
+    uv:
+      serializedVersion: 2
+      x: 0.25
+      y: 0.2265625
+      width: 0.25
+      height: 0.2265625
+  - name: 8
+    character: 56
+    size: {x: 32, y: 29}
+    uv:
+      serializedVersion: 2
+      x: 0.5
+      y: 0.2265625
+      width: 0.25
+      height: 0.2265625
+  - name: 9
+    character: 57
+    size: {x: 32, y: 29}
+    uv:
+      serializedVersion: 2
+      x: 0.75
+      y: 0.2265625
+      width: 0.25
+      height: 0.2265625

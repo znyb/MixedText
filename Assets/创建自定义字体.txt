@@ -1,0 +1,11 @@
+
+1.创建一个AtlasData，在Project视图右键Create/AtlasData
+
+2.在EditorConfig中添加Atlas图集监听，在Assets/Editor/Config/EditorConfig的AtlasMonitors中新增一项，设置Path和Data，Path下的图片变动时，Path下的所有图片将合成一张图放到AtlasData同目录下，并设置好AtlasData数据
+
+3.设置图片对应的字符，图集生成后，在AtlasData中设置MyImageData中每项的Character
+
+4.生成自定义字体，在Project视图右键Create/Material生成一个材质，将材质图片设置为上面生成的图集，将材质的Shader设置成Sprites/Default，在Project视图右键Create/CustomFont生成一个自定义字体，将字体的材质设置成生成的材质
+
+5.同步字符信息到字体中，打开Window/CharacterFontAdjust，设置AtlasData，设置字体，点击Set Font CharacterInfo将AtlasData中的字符信息同步到字体中，可以点击下面的left和right微调对应字符uv
+
